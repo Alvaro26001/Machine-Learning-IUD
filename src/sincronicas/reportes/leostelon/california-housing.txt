@@ -1,0 +1,40 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 20640
+Columnas: 10
+Duplicados: 0
+
+Columnas y tipos:
+- longitude: float64
+- latitude: float64
+- housing_median_age: float64
+- total_rooms: float64
+- total_bedrooms: float64
+- population: float64
+- households: float64
+- median_income: float64
+- median_house_value: float64
+- ocean_proximity: object
+
+Valores nulos por columna:
+- longitude: 0
+- latitude: 0
+- housing_median_age: 0
+- total_rooms: 0
+- total_bedrooms: 207
+- population: 0
+- households: 0
+- median_income: 0
+- median_house_value: 0
+- ocean_proximity: 0
+
+Estadísticas numéricas:
+       longitude   latitude  housing_median_age  total_rooms  total_bedrooms  population  households  median_income  median_house_value
+count  20640.000  20640.000           20640.000    20640.000       20433.000   20640.000    20640.00      20640.000           20640.000
+mean    -119.570     35.632              28.639     2635.763         537.871    1425.477      499.54          3.871          206855.817
+std        2.004      2.136              12.586     2181.615         421.385    1132.462      382.33          1.900          115395.616
+min     -124.350     32.540               1.000        2.000           1.000       3.000        1.00          0.500           14999.000
+25%     -121.800     33.930              18.000     1447.750         296.000     787.000      280.00          2.563          119600.000
+50%     -118.490     34.260              29.000     2127.000         435.000    1166.000      409.00          3.535          179700.000
+75%     -118.010     37.710              37.000     3148.000         647.000    1725.000      605.00          4.743          264725.000
+max     -114.310     41.950              52.000    39320.000        6445.000   35682.000     6082.00         15.000          500001.000
